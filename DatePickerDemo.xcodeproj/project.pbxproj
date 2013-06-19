@@ -16,6 +16,9 @@
 		250C9557175DE7D20047D701 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C9556175DE7D20047D701 /* Default.png */; };
 		250C9559175DE7D20047D701 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C9558175DE7D20047D701 /* Default@2x.png */; };
 		250C955B175DE7D20047D701 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C955A175DE7D20047D701 /* Default-568h@2x.png */; };
+		250C9564175DE7EE0047D701 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C9562175DE7EE0047D701 /* HomeViewController.m */; };
+		250C9565175DE7EE0047D701 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 250C9563175DE7EE0047D701 /* HomeViewController.xib */; };
+		250C9568175DEAF70047D701 /* DatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 250C9567175DEAF70047D701 /* DatePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,11 @@
 		250C9556175DE7D20047D701 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		250C9558175DE7D20047D701 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		250C955A175DE7D20047D701 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		250C9561175DE7EE0047D701 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		250C9562175DE7EE0047D701 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		250C9563175DE7EE0047D701 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		250C9566175DEAF70047D701 /* DatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePicker.h; sourceTree = "<group>"; };
+		250C9567175DEAF70047D701 /* DatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,11 @@
 				250C9553175DE7D20047D701 /* AppDelegate.h */,
 				250C9554175DE7D20047D701 /* AppDelegate.m */,
 				250C954B175DE7D20047D701 /* Supporting Files */,
+				250C9561175DE7EE0047D701 /* HomeViewController.h */,
+				250C9562175DE7EE0047D701 /* HomeViewController.m */,
+				250C9563175DE7EE0047D701 /* HomeViewController.xib */,
+				250C9566175DEAF70047D701 /* DatePicker.h */,
+				250C9567175DEAF70047D701 /* DatePicker.m */,
 			);
 			path = DatePickerDemo;
 			sourceTree = "<group>";
@@ -154,6 +167,7 @@
 				250C9557175DE7D20047D701 /* Default.png in Resources */,
 				250C9559175DE7D20047D701 /* Default@2x.png in Resources */,
 				250C955B175DE7D20047D701 /* Default-568h@2x.png in Resources */,
+				250C9565175DE7EE0047D701 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +180,8 @@
 			files = (
 				250C9551175DE7D20047D701 /* main.m in Sources */,
 				250C9555175DE7D20047D701 /* AppDelegate.m in Sources */,
+				250C9564175DE7EE0047D701 /* HomeViewController.m in Sources */,
+				250C9568175DEAF70047D701 /* DatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
